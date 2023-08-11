@@ -21,14 +21,12 @@ body{
 }
 
 .header{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    box-shadow: 0, 4px 30px rgba(255, 255, 255, 0.1);
-    color: #232323;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient(320deg, #f06767, #9e7474,
+     #27b6b6);
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #262c33;
+
     
 
 }
@@ -36,14 +34,9 @@ body{
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
-    font-kerning:auto;
+    font-kerning: auto;
     font-weight: 100;
-
-
-
-
-
-
+    font-stretch: expanded;
 
 }
 
@@ -58,4 +51,20 @@ body{
   
 }
 
-.hbuttons:hover {color: #6d6b6b;}
+.hbuttons:hover {color: #fff9f9;}
+
+.about{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.desc{
+    
+}
+
+.pfp{
+    position:relative;
+    left:400px;
+    bottom:180px
+}
